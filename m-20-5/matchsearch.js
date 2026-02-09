@@ -20,3 +20,6 @@ const products = [
 const result = matchProducts (products, 'phone');
 console.log(result);
 
+function matchProductsWithFilter(products, search){
+    return products.filter(product => product.name.toLowerCase().includes(search.toLowerCase()));
+}
