@@ -13,6 +13,7 @@ let minimum = getMaxMin(numbers);
 console.log("Minimum number is:", minimum);
 
 
+
 //Short cut
 // let numbers = [3, 5, 111, 82, 2];
 // let max = Math.max(...numbers);
